@@ -1,6 +1,11 @@
 # JSON API 1.1 Changelog
 Изменения в JSON API 1.1 будут описаны в данном документе.
 
+## 06-04-2021
+### Добавлено
+- Добавлено [описание](https://dev.moysklad.ru/doc/api/remap/1.2/reports/#otchety-otchet-pribyl-nost-poluchit-pribyl-nost-po-towaram) отчета по прибыльности по товарам
+- Добавлено [описание](https://dev.moysklad.ru/doc/api/remap/1.2/reports/#otchety-otchet-pribyl-nost-poluchit-pribyl-nost-po-modifikaciqm) отчета по прибыльности по модификациям
+
 ## 05-04-2021
 ### Изменено
 - Обновлено описание ошибки **17102**
