@@ -1,6 +1,13 @@
 # JSON API 1.1 Changelog
 Изменения в JSON API 1.1 будут описаны в данном документе.
 
+## 14-04-2021
+### Изменено
+- Для атрибутов 
+  AttributeMetadata.required , 
+  AgentAccount.isDefault, WebHook.enabled, Product.weighed
+  при передаче null значения выводится ошибка 2016
+
 ## 07-04-2021
 ### Добавлено
 - Добавлен [пример](https://dev.moysklad.ru/doc/api/remap/1.1/#%D0%BE%D1%82%D1%87%D1%91%D1%82-%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%B8-%D0%B2%D1%81%D0%B5-%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%BA%D0%B8-get) в отчет остатки по параметру includeRelated 
