@@ -76,6 +76,7 @@
   | NotificationRetailShiftOpened       | Розничная торговля    | Открыта смена |
   | NotificationRetailShiftClosed       | Розничная торговля    | Закрыта смена |
   | NotificationScript       | Сценарии    | Уведомление из сценария |
+  | FacebookTokenExpirationNotification | Интернет-магазины     | О скором окончании действия доступа к аккаунту Facebook |
 
 ## Подробное описание типов уведомлений [/notification/{id}]
 
@@ -590,4 +591,23 @@ NotificationScript - уведомление из сценария
 + Response 200 (application/json)
   + Body
         <!-- include(body/notification/script_notification.json) -->
+
+## Предупреждение о скором окончании действия доступа к аккаунту Facebook [GET]
+<h3> Тип уведомления </h3>
+FacebookTokenExpirationNotification - предупреждение о скором окончании действия доступа к аккаунту Facebook
+<h3> Атрибуты уведомления </h3>
++ **meta** - [Метаданные](#header-метаданные) объекта `Необходимое`
++ **id** - ID Уведомления в формате UUID `Необходимое`
++ **accountId** - ID учетной записи `Необходимое`
++ **created** - Дата и время формирования Уведомления `Необходимое`
++ **read** - Признак того, было ли Уведомление прочитано `Необходимое`
++ **title** - Краткий текст уведомления `Необходимое`
++ **description** - Описание уведомления `Необходимое`
++ **connectorName** - Название коннектора "Instagram and Facebook" `Необходимое`
++ **daysLeftToExpiration** - Количество дней, оставшихся до окончания действия доступа к аккаунту Facebook `Необходимое`
++ Parameters
+  + id: `9596251d-da73-11eb-ac12-000c00000015` (required, string) - id Уведомления.
++ Response 200 (application/json)
+  + Body
+        <!-- include(body/notification/facebook_token_expiration_notification.json) -->
 

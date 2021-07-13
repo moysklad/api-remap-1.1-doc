@@ -27,6 +27,10 @@
     "scripts" : {
       "enabled" : true,
       "channels" : [ "email", "push" ]
+    },
+    "online_stores" : {
+      "enabled" : true,
+      "channels" : [ "email", "push" ]
     }
   }
 }
