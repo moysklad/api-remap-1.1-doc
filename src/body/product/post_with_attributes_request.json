@@ -82,7 +82,7 @@
           "mediaType": "application/json"
       },
       "id": "0f1e750e-e1b2-11e7-9464-e4de00000003",
-      "name": "not strange attribute name",
+      "name": "not strange attribute name.jar",
       "type": "file",
       "file": {
         "name": "filename",
