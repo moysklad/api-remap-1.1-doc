@@ -111,6 +111,7 @@
       "name": "not strange attribute name",
       "type": "file",
       "value": "filename",
+      "extension": "jar",
       "download": {
           "href": "https://online.moysklad.ru/api/remap/1.1/download/00664f3a-e3da-11e7-9464-e4de00000000",
           "mediaType": "application/octet-stream"
