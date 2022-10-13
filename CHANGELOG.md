@@ -8,12 +8,15 @@
 - добавьте https://github.com/moysklad/api-remap-1.1-doc/commits/master.atom
 - при любом изменении документации придёт нотификация и можно посмотреть, что именно изменилось.
 
+## 14-10-2022
+### Добавлено
+- Добавлен `3030` код [ошибки](https://dev.moysklad.ru/doc/api/remap/1.1/#header-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA).
+
 ## 29-07-2022
 ### Описано
 - Ранее неявное ограничение в 255 символов на длину url адресов для [Атрибуты сущности](https://dev.moysklad.ru/doc/api/remap/1.1/#header-%D0%B0%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D1%8B-%D1%81%D1%83%D1%89%D0%BD%D0%BE%D1%81%D1%82%D0%B8-22)
 ### Добавлено
 - Ошибка [30010](https://dev.moysklad.ru/doc/api/remap/1.1/#header-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA)
-
 
 ## 23-03-2022
 ### Изменено
