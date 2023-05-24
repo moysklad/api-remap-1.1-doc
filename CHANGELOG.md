@@ -8,6 +8,10 @@
 - добавьте https://github.com/moysklad/api-remap-1.1-doc/commits/master.atom
 - при любом изменении документации придёт нотификация и можно посмотреть, что именно изменилось.
 
+## 24-05-2023
+### Добавлено
+- Добавлен `2029` код [ошибки](https://dev.moysklad.ru/doc/api/remap/1.1/#header-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA).
+
 ## 12-12-2022
 ### Добавлено
 - Добавлен `15004` код [ошибки](https://dev.moysklad.ru/doc/api/remap/1.1/#header-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA).
