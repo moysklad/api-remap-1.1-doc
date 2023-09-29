@@ -23,7 +23,6 @@ jobs:
 
       - name: Build
         run: |
-          docker build . --tag aglio
           ./build.sh
 
       - name: Deploy
